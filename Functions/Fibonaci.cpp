@@ -18,12 +18,11 @@ void fib(int num)
     return ;
 }
 
-int main()
+void main()
 {
 
     int a;
     cout << "Enter a number";
     cin >> a; 
     fib(a);        
-    return 0;
 }
